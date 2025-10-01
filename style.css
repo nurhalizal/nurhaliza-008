@@ -6,10 +6,12 @@ body {
   color: #242815;
 }
 
+header {
+  position: sticky;
+}
 /* Header styling */
 .header-top {
   display: flex;
-  position: fixed
   gap: 12px;
   justify-content: space-between;
   align-items: center;
@@ -103,7 +105,7 @@ hr {
 .content-box {
     background-color: #fefae0;
     padding: 20px;
-    margin: 8px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15);
 }
@@ -275,4 +277,5 @@ section {
   transform: scale(1.25);
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
 }
+
 
