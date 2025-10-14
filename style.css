@@ -6,6 +6,11 @@ body {
   color: #242815;
 }
 
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   position: sticky;
 }
@@ -279,3 +284,4 @@ section {
   transform: scale(1.25);
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
 }
+
