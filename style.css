@@ -1,4 +1,4 @@
-/* Basic reset for consistent look */
+
 body {
   margin: 0;
   font-family: Georgia, sans-serif;
@@ -9,8 +9,10 @@ body {
 header {
   position: sticky;
 }
-/* Header styling */
+
+
 .header-top {
+  position: sticky;
   display: flex;
   gap: 12px;
   justify-content: space-between;
@@ -18,7 +20,7 @@ header {
   background-image: linear-gradient(to bottom, rgb(36, 40, 21, 0.5), rgb(72, 80, 42, 0.5)), url("Wallpaper.png") ;
   background-size: cover;
   background-position: center;
-  padding: 16px 20px;
+  padding: 12px 20px;
   margin: 8px;
   border-radius: 20px;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15);
@@ -53,7 +55,7 @@ header {
 /* Logo styling */
 .logo {
   display: flex;
-  height: 140px;
+  height: 100px;
   width: auto;
   object-fit: cover;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
@@ -105,7 +107,7 @@ hr {
 .content-box {
     background-color: #fefae0;
     padding: 20px;
-    margin: 10px;
+    margin: 8px;
     border-radius: 20px;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15);
 }
@@ -277,5 +279,3 @@ section {
   transform: scale(1.25);
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
 }
-
-
